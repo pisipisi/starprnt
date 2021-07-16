@@ -16,7 +16,7 @@
 		<!-- Using StarPRNT_Android_SDK_V5_5_0  -->
 		<source-file src="src/android/lib/StarIOPort3.1.jar" target-dir="libs" />
 		<source-file src="src/android/lib/starioextension.jar" target-dir="libs" />
-		<source-file src="src/android/lib/StarIODeviceSetting.aar" target-dir="libs" />
+		<!-- <source-file src="src/android/lib/StarIODeviceSetting.aar" target-dir="libs" /> -->
 		<config-file target="res/xml/config.xml" parent="/*">
 		<feature name="StarPRNT">
 			<param name="android-package" value="starprnt.cordova.StarPRNT" />
@@ -48,7 +48,7 @@
 		<!-- Using StarPRNT_iOS_SDK_V5_5_0  -->
 		<framework src="./frameworks/StarIO.framework" custom="true"/>
 		<framework src="./frameworks/StarIO_Extension.framework" custom="true"/>
-		<framework src="./frameworks/StarIODeviceSetting.framework" custom="true"/>
+		<!-- <framework src="./frameworks/StarIODeviceSetting.framework" custom="true"/> -->
 		<framework src="CoreBluetooth.framework"/>
 		<framework src="ExternalAccessory.framework"/>
 	</platform>
